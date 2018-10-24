@@ -1,0 +1,35 @@
+
+
+.nav-bar{
+ display: flex;
+ background-color: pink;
+ justify-content: space-between;
+ width: 15%;
+
+}
+
+
+main{
+display: flex;
+width: 85%;
+padding: 1em ;
+
+}
+
+.nav-bar ul :hover{
+  background-color: orange;
+
+}
+
+
+.a ul{
+  transition: background-color 0.5s ease;
+  background-color: red;
+
+
+}
+
+body h1 {
+  margin: 0;
+  padding: 0;
+}
